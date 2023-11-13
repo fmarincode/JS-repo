@@ -33,7 +33,7 @@ function myReduce (arr, func, initialValue){
     let acc = initialValue || 0;
 
     for (let i = 0; i < arr.length; i++ ){
-        let res = func(arr[i], acc)
+        acc = func(arr[i], acc)
     }
     return acc
 }
