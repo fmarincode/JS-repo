@@ -20,7 +20,7 @@ function myFilter (arr, func){
         let result = func(arr[i])
 
         if (result){
-            filteredArr.push(result)
+            filteredArr.push(arr[i])
         }
     }
     return filteredArr
