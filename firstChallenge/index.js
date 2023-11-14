@@ -11,6 +11,7 @@ function myMap (arr, func) {
     return newArr
 }
 
+
 /* filter function */
 
 function myFilter (arr, func){

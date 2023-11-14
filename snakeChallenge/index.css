@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#terrain {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  background-color: #918080;
+}
+
+#snake {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  grid-column: 10 / span 1;
+  grid-row: 10 / span 1;
+  left: 0;
+  top: 0;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#bonuses {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+}
+
+.bonus {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(6, 6, 182);
+}
+
+.message {
+  display: none;
+}
